@@ -20,4 +20,4 @@ pipelines:
                 npm install --production
                 
                 # Gracefully restart the app
-                pm2 startOrGracefulRel
+                pm2 startOrGracefulReload ecosystem.config.js
