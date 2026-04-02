@@ -11,7 +11,7 @@ pipelines:
               SERVER: $Flow_Server_IP
               COMMAND: |
                 # cd to application dir
-                cd /home/azureuser/node_dummy_app/
+                cd /home/ubuntu/node_dummy_app/
                 
                 # Fetching latest code
                 git pull origin main
