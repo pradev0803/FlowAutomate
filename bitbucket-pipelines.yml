@@ -1,0 +1,23 @@
+image: node:20
+
+pipelines:
+  default:
+    - step:
+        name: Deploy to EC2 instance
+        script:
+          - pipe: atlassian/ssh-run:0.4.0
+            variables:
+              SSH_USER: 'ubuntu' 
+              SERVER: $Flow_Server_IP
+              COMMAND: |
+                # cd to application dir
+                cd /home/azureuser/node_dummy_app/
+                
+                # Fetching latest code
+                git pull origin main
+                
+                # Install production dependencies only
+                npm install --production
+                
+                # Gracefully restart the app
+                pm2 startOrGracefulRel
