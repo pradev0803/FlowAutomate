@@ -8,4 +8,5 @@ in the repository
 Result of Pipeline run:
 <img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/33db175a-9ace-4b64-ac7e-6b575ce3f7e7" />
 
-<img width="959" height="565" alt="image" src="https://github.com/user-attachments/assets/4b7fa3b7-ab1d-4da0-b485-56754720c3e7" />
+<img width="959" height="563" alt="image" src="https://github.com/user-attachments/assets/9a2cd27e-9295-4c71-9ebe-0bb497180d80" />
+
